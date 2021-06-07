@@ -39,7 +39,7 @@
                     <a href="<c:url value="/booklist.html"/>">参考图书</a>
                 </li>
                 <li>
-                    <a href="<c:url value="/newbook.html"/>">新增图书</a>
+                    <a href="<c:url value="/addbook.html"/>">新增图书</a>
                 </li>
             </ul>
         </div>
