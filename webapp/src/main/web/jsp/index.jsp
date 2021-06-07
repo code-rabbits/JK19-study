@@ -50,7 +50,7 @@
     <div class="row">
         <div class="col-sm-5">
             <h2>关于教材</h2>
-            <div class="fakeimg"><img src="./img/JavaEE.jpg" /> </div>
+            <div class="fakeimg"><img src="./img/JavaEE.png" /> </div>
             <h3>课程内容链接</h3>
             <ul class="nav nav-pills nav-stacked">
                 <li class="active">
@@ -76,13 +76,13 @@
                 <!-- 轮播（Carousel）项目 -->
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="./img/Mybatis.png" alt="First slide">
+                        <img src="./img/mybatis.png" alt="First slide">
                     </div>
                     <div class="item">
-                        <img src="./img/Spring.png" alt="Second slide">
+                        <img src="./img/spring.png" alt="Second slide">
                     </div>
                     <div class="item">
-                        <img src="./img/SpringMvc.jpg" alt="Third slide">
+                        <img src="./img/springmvc.png" alt="Third slide">
                     </div>
                 </div>
                 <!-- 轮播（Carousel）导航 -->
