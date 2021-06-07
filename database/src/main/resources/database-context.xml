@@ -20,6 +20,24 @@
           p:password="${jdbc.password}"/>
 
     <!--配置jdbcTemplate-->
-    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate"
-          p:dataSource-ref="dataSource"/>
+<!--    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate"-->
+<!--          p:dataSource-ref="dataSource"/>-->
+
+    <!--配置Mybatis  -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--配置数据源  -->
+        <property name="dataSource" ref="dataSource"></property>
+        <!--给类起别名，后面可以使用类的简单命名 -->
+        <property name="typeAliasesPackage" value="com.zut.domain"></property>
+        <!--指明Mapper映射配置文件的位置 -->
+        <property name="mapperLocations" value="classpath*:com/zut/dao/*Mapper.xml"></property>
+    </bean>
+
+    <!--配置自动扫描 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--SqlSessionFactory -->
+        <property name="sqlSessionFactoryBeanName"  value="sqlSessionFactory"></property>
+        <!--Scan location -->
+        <property name="basePackage" value="com.zut.dao"></property>
+    </bean>
 </beans>

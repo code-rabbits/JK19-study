@@ -23,8 +23,8 @@ public class BeanTest extends AbstractTestNGSpringContextTests {
 
     @Test
     public void insert(){
-        book.setIsbn("512");
-        book.setName("python");
+        book.setIsbn("666");
+        book.setName("C#");
         book.setPrice(2000);
         service.insert(book);
     }

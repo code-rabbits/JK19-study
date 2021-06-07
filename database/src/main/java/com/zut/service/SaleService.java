@@ -16,7 +16,6 @@ public class SaleService {
     private BookDao bookDAO;
 
     @Autowired
-    @Qualifier(value = "bookDaoImpl")
     public void setBookDAO(BookDao bookDAO) {
         this.bookDAO = bookDAO;
     }
