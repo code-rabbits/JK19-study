@@ -1,12 +1,12 @@
-package com.zut;
+package com.zut.domain;
 
 import org.springframework.stereotype.Component;
 
 @Component
 public class Book {
     private String name;
-    private String isdn;
-    private int price;
+    private String isbn;
+    private float price;
 
     public String getName() {
         return name;
@@ -16,19 +16,19 @@ public class Book {
         this.name = name;
     }
 
-    public String getIsdn() {
-        return isdn;
+    public String getIsbn() {
+        return isbn;
     }
 
-    public void setIsdn(String isdn) {
-        this.isdn = isdn;
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
     }
 
-    public int getPrice() {
+    public float getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(float price) {
         this.price = price;
     }
 
@@ -36,7 +36,7 @@ public class Book {
     public String toString() {
         return "Book{" +
                 "name='" + name + '\'' +
-                ", isdn='" + isdn + '\'' +
+                ", isbn='" + isbn + '\'' +
                 ", price=" + price +
                 '}';
     }
