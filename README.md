@@ -1,17 +1,16 @@
 # JK19
 
 #### 介绍
-搭建环境
+跟着老师视频学的javaEE
 
 #### 软件架构
-软件架构说明
+Spring+SprinfMVC+Mybatis
 
 
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#### 项目截图
+![首页](https://images.gitee.com/uploads/images/2021/0618/225626_147dd855_8723432.png "屏幕截图.png")
+![图书列表](https://images.gitee.com/uploads/images/2021/0618/225746_a0e3c610_8723432.png "屏幕截图.png")
+![新增图书](https://images.gitee.com/uploads/images/2021/0618/225659_599e564b_8723432.png "屏幕截图.png")
 
 #### 使用说明
 
